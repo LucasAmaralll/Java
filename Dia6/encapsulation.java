@@ -10,6 +10,8 @@ public class encapsulation {
         // Criação de uma instância da classe "Car" com valores específicos
         Car car = new Car("BMW", "X6", 2024);
 
+        car.setModelo("X5");
+
         // Impressão das informações do carro utilizando os métodos getter
         System.out.println("Marca: " + car.getMarca());
         System.out.println("Modelo: " + car.getModelo());
